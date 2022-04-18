@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.example.serpiente.Interfaz
+        android:id="@+id/gv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:foregroundGravity="center"/>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:background="#0A22AF"
+        android:alpha="0.8"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/pitaya" />
+
+                <TextView
+                    android:id="@+id/Puntaje"
+                    android:textColor="#ffffff"
+                    android:textSize="60sp"
+                    android:fontFamily="cursive"
+                    android:text="X0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="horizontal">
+                <ImageView
+                    android:src="@drawable/ic_baseline_local_fire_department_24"
+                    app:tint="#F6440C"
+                    android:layout_height="80dp"
+                    android:layout_width="80dp"
+                    android:scaleType="fitXY"/>
+                <TextView
+                    android:id="@+id/MayorPuntaje"
+                    android:textColor="#ffffff"
+                    android:textSize="60sp"
+                    android:fontFamily="cursive"
+                    android:text="X 0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+        </RelativeLayout>
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/img_swipe"
+            android:visibility="invisible"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/swipe"
+            android:scaleType="fitXY"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"/>
+
+
+</RelativeLayout>
