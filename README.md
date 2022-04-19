@@ -6,6 +6,6 @@ This app recreates the clasic snake game with some settings that make this game 
 Screenshots:
 -------------
 
-![](/screenshots/InicioJuego.jpg | width=100)
+![](/screenshots/InicioJuego.jpg)
 
 
