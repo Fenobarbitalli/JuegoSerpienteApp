@@ -5,7 +5,7 @@ This app recreates the clasic snake game with some settings that make this game 
 
 Screenshots:
 -------------
-<img src="/screenshots/InicioJuego.jpg.jpg" alt="InicioJuego" width="200"/>
-![](/screenshots/InicioJuego.jpg =300x500)
+<img src="/screenshots/InicioJuego.jpg.jpg" alt="InicioJuego" width="500"/>
+![](/screenshots/InicioJuego.jpg)
 
 
